@@ -548,7 +548,7 @@
   block:
     - name: 1.4.1 Ensure AIDE is installed
       apt:
-        name: ["nullmailer", "aide-common", "aide"]
+        name: ["aide-common", "aide"]
         state: present
         install_recommends: false
     - name: Configure AIDE as appropriate for your environment | aideinit
